@@ -116,7 +116,7 @@ const LandingPage = () => {
       {
         title: "Hydro Reminder - Java Desktop App",
         desc: "A Java-based desktop application designed to help users track their daily water intake. It features a secure login system, real-time hydration monitoring, and persistent data storage integrated with a MySQL database via JDBC.",
-        image: HydroApp, 
+        image: HydroApp,
         tech: ["Java", "NetBeans IDE", "MySQL", "JDBC", "Java Swing"],
         link: "https://github.com/salwaekaafianii/HydroReminder-PEMKOM2.git"
       }
@@ -184,22 +184,22 @@ const LandingPage = () => {
             transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
           />
           <motion.div
-            className=" md:w-1/2 text-center md:text-left md:ml-10 lg:ml-20 relative z-10 mt-10 md:mt-0"
+            className="md:w-1/2 text-left md:ml-10 lg:ml-20 relative z-10 mt-10 md:mt-0"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
           >
             <h1
-              className="text-2xl sm:text-3xl md:text-4xl text-stone-800 mb-4 relative inline-block"
+              className="text-2xl sm:text-3xl md:text-4xl text-stone-800 mb-6 relative inline-block"
               style={{ fontFamily: 'satoshi-black' }}
             >
               <span className="absolute inset-0 bg-rose-400 opacity-20 blur-xl rounded-lg"></span>
               <span className="relative">Hi, I'm Salwa Eka Afiani</span>
             </h1>
 
-            <p className="text-xl sm:text-2xl md:text-3xl text-stone-800 mb-6" style={{ fontFamily: 'satoshi-medium' }}>
+            <p className="text-xl sm:text-2xl md:text-3xl text-stone-800 mb-4" style={{ fontFamily: 'satoshi-medium' }}>
               Aspiring
-              <span className="ml-2 block sm:inline">
+              <span className="ml-2 inline">
                 <TypeAnimation
                   sequence={[
                     'Web Developer', 2000,
@@ -213,34 +213,34 @@ const LandingPage = () => {
               </span>
             </p>
 
-            <p className="mt-4 text-lg text-stone-700 italic" style={{ fontFamily: 'satoshi-medium' }}>
+            <p className="mt-2 text-base text-stone-700 italic" style={{ fontFamily: 'satoshi-medium' }}>
               Bringing potential to life through immersive digital experiences.
             </p>
 
             <a
               href="#portfolio"
-              className="mt-6 inline-block text-rose-400 tracking-wide hover:underline underline-offset-4 decoration-2 transition-all cursor-pointer"
+              className="mt-4 inline-block text-rose-400 tracking-wide hover:underline underline-offset-4 decoration-2 transition-all cursor-pointer"
               style={{ fontFamily: 'satoshi-bold' }}
             >
               View My Portfolio →
             </a>
-            <div className="flex gap-4 mt-6 justify-center md:justify-start">
+            <div className="flex gap-4 mt-4 justify-start">
               <a href="https://github.com/salwaekaafianii" target="_blank" rel="noopener noreferrer" className="text-stone-700 hover:text-rose-400 transition-colors">
-                <FaGithub size={24} />
+                <FaGithub size={20} />
               </a>
               <a href="https://www.linkedin.com/in/salwa-eka-afiani-24479129a/" target="_blank" rel="noopener noreferrer" className="text-stone-700 hover:text-rose-400 transition-colors">
-                <FaLinkedinIn size={24} />
+                <FaLinkedinIn size={20} />
               </a>
               <a href="https://www.instagram.com/salwaekaaf/" target="_blank" rel="noopener noreferrer" className="text-stone-700 hover:text-rose-400 transition-colors">
-                <FaInstagram size={24} />
+                <FaInstagram size={20} />
               </a>
               <a href="https://www.tiktok.com/@seaailin" target="_blank" rel="noopener noreferrer" className="text-stone-700 hover:text-rose-400 transition-colors">
-                <FaTiktok size={24} />
+                <FaTiktok size={20} />
               </a>
             </div>
           </motion.div>
           <motion.div
-            className="md:w-1/2 flex justify-center mt-10 md:mt-0 relative z-10"
+            className="md:w-1/2 flex justify-center mt-20 md:mt-0 relative z-10"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
@@ -250,9 +250,11 @@ const LandingPage = () => {
               <img
                 src={profileImg}
                 alt="salwa"
-                className="relative w-64 md:w-75 h-auto object-cover drop-shadow-[5px_5px_5px_rgba(128,128,128,0.5)] rounded-lg md:ml-8"
+
+                className="relative w-57 md:w-66 h-auto object-cover drop-shadow-[5px_5px_5px_rgba(128,128,128,0.5)] rounded-lg md:ml-8"
               />
             </div>
+            
           </motion.div>
         </div>
       </section>
@@ -274,10 +276,9 @@ const LandingPage = () => {
             About Me
           </h2>
           <p className="text-zinc-600 max-w-2xl mx-auto text-sm sm:text-base mb-8" style={{ fontFamily: 'satoshi-medium' }}>
-            An <strong>Informatics Engineering student at Universitas Harkat Negeri</strong> with a deep-rooted passion for visual storytelling.
-            Starting my journey in <strong>Multimedia during vocational high school (SMK)</strong>, I’ve spent years honing my skills in graphic design.
-            Today, I blend that creative foundation with technical expertise in <strong>Web Development</strong> to craft modern digital experiences.
-            My goal is to build impactful solutions that align with the evolving tech industry.</p>
+            An <strong>Informatics Engineering student at Universitas Harkat Negeri</strong> with a strong foundation in <strong>Multimedia since vocational high school (SMK)</strong>.
+            By blending years of graphic design experience with technical expertise in <strong>Web Development</strong>,
+            I craft immersive digital experiences that align with the evolving tech industry.</p>
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
