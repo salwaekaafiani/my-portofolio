@@ -190,14 +190,14 @@ const LandingPage = () => {
             transition={{ duration: 1 }}
           >
             <h1
-              className="text-2xl sm:text-3xl md:text-4xl text-stone-800 mb-6 relative inline-block"
+              className="text-2xl sm:text-3xl md:text-4xl text-stone-800 mb-4 relative inline-block"
               style={{ fontFamily: 'satoshi-black' }}
             >
               <span className="absolute inset-0 bg-rose-400 opacity-20 blur-xl rounded-lg"></span>
               <span className="relative">Hi, I'm Salwa Eka Afiani</span>
             </h1>
 
-            <p className="text-xl sm:text-2xl md:text-3xl text-stone-800 mb-4" style={{ fontFamily: 'satoshi-medium' }}>
+            <p className="text-xl sm:text-2xl md:text-3xl text-stone-800 mb-3" style={{ fontFamily: 'satoshi-medium' }}>
               Aspiring
               <span className="ml-2 inline">
                 <TypeAnimation
