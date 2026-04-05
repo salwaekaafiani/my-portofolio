@@ -6,7 +6,6 @@ const Header = () => {
     <header className="fixed top-0 left-0 z-50 w-full backdrop-blur-md bg-white/30 border-b border-gray-100">
       <div className="max-w-5xl mx-auto flex items-center justify-between py-4 px-6 md:px-12">
 
-        {/* Logo kiri */}
         <div className="flex-shrink-0">
           <Link
             to="/"
@@ -17,7 +16,6 @@ const Header = () => {
           </Link>
         </div>
 
-        {/* Contact kanan dengan desain kotak ala Project */}
         <div>
   <a
     href="mailto:salwaekaafianii@gmail.com"

@@ -9,6 +9,7 @@ import AI from '../assets/AI.png';
 import WEBPPM from '../assets/WEBPPM.png';
 import CAPSTONE from '../assets/CAPSTONE.png';
 import Sertif from '../assets/Sertif.png';
+import HydroApp from '../assets/HydroApp.png';
 import { TypeAnimation } from 'react-type-animation';
 import {
   FaLaptopCode, FaGithub, FaLinkedinIn, FaInstagram, FaTiktok, FaServer,
@@ -74,7 +75,7 @@ const LandingPage = () => {
       roles: [
         {
           title: "Coordinator of Kominfo",
-          period: "2025 - Present",
+          period: "2025 - 2026",
           desc: "Spearheading creative content strategies aligned with organizational goals and audience trends. Overseeing digital workflows, maintaining brand consistency across platforms, and managing high-impact documentation to drive audience engagement."
         },
         {
@@ -111,6 +112,13 @@ const LandingPage = () => {
         image: CAPSTONE,
         tech: ["Python", "Flask", "MySQL", "HTML", "Bootstrap"],
         link: "https://github.com/salwaekaafianii/capstone.git"
+      },
+      {
+        title: "Hydro Reminder - Java Desktop App",
+        desc: "A Java-based desktop application designed to help users track their daily water intake. It features a secure login system, real-time hydration monitoring, and persistent data storage integrated with a MySQL database via JDBC.",
+        image: HydroApp, 
+        tech: ["Java", "NetBeans IDE", "MySQL", "JDBC", "Java Swing"],
+        link: "https://github.com/salwaekaafianii/HydroReminder-PEMKOM2.git"
       }
     ],
     Designs: [
@@ -163,15 +171,15 @@ const LandingPage = () => {
   };
   return (
     <>
-      <section className="py-20 flex items-center justify-center bg-white overflow-hidden">
-        <div className="max-w-6xl mx-auto flex-col-reverse w-full px-8 flex flex-col md:flex-row items-center justify-between">
+      <section className="py-6 md:py-19 flex items-center justify-center bg-white overflow-hidden">
+        <div className="max-w-6xl mx-auto  w-full px-8 flex flex-col md:flex-row items-center justify-between">
           <motion.div
             className="absolute top-20 left-10 w-72 h-72 bg-rose-400 opacity-25 rounded-full blur-3xl"
             animate={{ x: [0, 40, 0], y: [0, -25, 0] }}
             transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
           />
           <motion.div
-            className="absolute top-40 right-25 w-48 h-48 bg-rose-500 opacity-40 rounded-full blur-3xl"
+            className="absolute top-50 right-25 w-48 h-48 bg-rose-500 opacity-45 rounded-full blur-3xl"
             animate={{ x: [0, -35, 0], y: [0, 30, 0] }}
             transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
           />
@@ -238,7 +246,7 @@ const LandingPage = () => {
             transition={{ duration: 1 }}
           >
             <div className="relative">
-              <div className="absolute top-11 w-55 h-55 bg-rose-500 blur-3xl opacity-40 rounded-lg scale-100"></div>
+              <div className="absolute top-10 w-20 h-20 bg-rose-600 blur-3xl opacity-80 rounded-lg scale-100 -translate-x-4"></div>
               <img
                 src={profileImg}
                 alt="salwa"
@@ -351,7 +359,7 @@ const LandingPage = () => {
               className="bg-rose-50/30 border border-rose-100 p-6 md:p-8 rounded-3xl relative">
               <div className="flex items-center gap-4 mb-8">
                 <div className="flex items-center justify-center">
-                 <FaUniversity size={30} className="text-stone-800" />
+                  <FaUniversity size={30} className="text-stone-800" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-stone-800">{experiences[0].organization}</h3>
@@ -487,7 +495,7 @@ const LandingPage = () => {
       {/* PORTFOLIO SHOWCASE */}
       <section id="portfolio" className="relative overflow-hidden py-20 px-6 md:px-20 bg-white">
         <motion.div
-          className="absolute top-20 left-10 w-72 h-72 bg-rose-400 opacity-25 rounded-full blur-3xl"
+          className="absolute top-35 left-10 w-72 h-72 bg-rose-400 opacity-25 rounded-full blur-3xl"
           animate={{ x: [0, 40, 0], y: [0, -25, 0] }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
         />
