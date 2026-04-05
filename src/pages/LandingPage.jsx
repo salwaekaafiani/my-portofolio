@@ -171,7 +171,7 @@ const LandingPage = () => {
             transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
           />
           <motion.div
-            className="absolute top-40 right-10 w-48 h-48 bg-rose-400 opacity-50 rounded-full blur-3xl"
+            className="absolute top-40 right-30 w-48 h-48 bg-rose-500 opacity-40 rounded-full blur-3xl"
             animate={{ x: [0, -35, 0], y: [0, 30, 0] }}
             transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
           />
