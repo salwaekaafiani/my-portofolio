@@ -171,7 +171,7 @@ const LandingPage = () => {
             transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
           />
           <motion.div
-            className="absolute top-40 right-30 w-48 h-48 bg-rose-500 opacity-40 rounded-full blur-3xl"
+            className="absolute top-40 right-25 w-48 h-48 bg-rose-500 opacity-40 rounded-full blur-3xl"
             animate={{ x: [0, -35, 0], y: [0, 30, 0] }}
             transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
           />
@@ -351,7 +351,7 @@ const LandingPage = () => {
               className="bg-rose-50/30 border border-rose-100 p-6 md:p-8 rounded-3xl relative">
               <div className="flex items-center gap-4 mb-8">
                 <div className="flex items-center justify-center">
-                  <FaUniversity size={30} className="text-rose-400" />
+                 <FaUniversity size={30} className="text-stone-800" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-stone-800">{experiences[0].organization}</h3>
